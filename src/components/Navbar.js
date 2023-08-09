@@ -1,6 +1,6 @@
 import styled  from "styled-components"
 import netflixLogo from '../assets/netflixLogo.png';
-
+import NavBarRight from "./NavBarRight";
 
 const Logo = styled.img`
 
@@ -12,6 +12,7 @@ height: 50px;
 const Ul = styled.ul`
     display: flex;
     flex-direction: row;
+    margin-right: auto;
     align-items: center;
 
 `
@@ -38,9 +39,9 @@ const  Navbar = () => {
                 <Li>New & popular</Li>
                 <Li>My list</Li>
                 <Li>Browse by Languages</Li>
-
-
             </Ul>
+
+      
             
        
     
