@@ -1,5 +1,5 @@
 import styled  from "styled-components"
-
+import netflixLogo from '../assets/netflixLogo.png';
 
 
 const Logo = styled.img`
@@ -31,7 +31,7 @@ const  Navbar = () => {
            
             
             <Ul>
-                {/* <Li><Logo src={netflixLogo} alt="logo"></Logo></Li> */}
+            <Li><Logo src={netflixLogo} alt="logo"></Logo></Li>
                 <Li>Home</Li>
                 <Li>TV Shows</Li>
                 <Li>Movies</Li>
